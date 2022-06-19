@@ -1,0 +1,4 @@
+selenium
+pyTelegramBotAPI
+webdriver-manager
+twilio
