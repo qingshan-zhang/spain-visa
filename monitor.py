@@ -40,7 +40,6 @@ def monitor():
                 logger.info(f"DAY AVAILABLE: {dates}")
 #                 bot.send_message(chat_id=config.CHAT_ID, text=f'DAY AVAILABLE: {dates}')
                 client.messages.create(body=f'DAY AVAILABLE: {dates}', from_='MG8a1a180d040f10a5ea32db50089c07b5', to='+447920206756')
-                client.messages.create(body=f'DAY AVAILABLE: {dates}', from_='MG8a1a180d040f10a5ea32db50089c07b5', to='+447510920360')
                 # driver.back()
             else:
                 logger.info(f"NO DAY AVAILABLE..")
