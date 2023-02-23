@@ -1,7 +1,5 @@
 ## 西班牙签证位置监听 (base英国)
 ### 一、简介
-回国需要申根签，但是每天蹲网站刷slot太浪费时间了，故写了一个监听脚本。分享给在🇬🇧有需要的同学。
-
 项目是基于 [one-focus/visa-spain](https://github.com/one-focus/visa-spain) 改的，抽出了关键代码，针对英国的BLS的网站改了一下。请不要拿来用作盈利用途，否则会追究责任。
 
 在python3.6 + macOS Catalina上运行成功，没在别的环境上做过测试。
@@ -30,21 +28,6 @@
     pip install -r requirements.txt
     ```
 2. 修改config.py
-
-    签证中心是写死在代码里的，默认是曼城。
-    ```python
-    # 用户ID, 改完后发条消息给@wongs_bot, 不然机器人发不了消息给你
-    # 也可把@wongs_bot拉群群里，CHAT_ID改成群组的ID
-    # 怎么查看用户id？加`@userinfobot`, 发送/start, 就有id
-    CHAT_ID = 2129111169
-    
-    # 必改，下面两项为你登陆BLS的账号密码
-    EMAIL = 'xxx' 
-    PASSWORD = 'xxx' 
-    
-    # 必改，你BLS点了Book Appointment之后出现的页面
-    OPENED_PAGE = 'xxx'
-    ```
 
 3. 运行
     ```shell
