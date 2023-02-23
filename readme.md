@@ -29,6 +29,13 @@
     ```
 2. 修改config.py
 
+    ```
+    根据自己账号与登录页面地址修改config.py里的内容：
+    OPENED_PAGE
+    EMAIL
+    PASSWORD
+    ```
+
 3. 运行
     ```shell
     python3 monitor.py
